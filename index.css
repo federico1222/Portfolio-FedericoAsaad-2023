@@ -2,6 +2,7 @@
     font-family: 'KONNECT';
     src: url(./font/konnect-extrabold.otf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Work+Sans:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -22,10 +23,12 @@ header {
 
 .navbar-nav {
     gap: 40px;
+    margin-left: 50px;
 }
 
 .navbar-nav a {
     color: white;
+    font-family: 'Work Sans';
 }
 
 main {
@@ -42,13 +45,17 @@ main {
 
 #titleMain h1{
     font-family: 'KONNECT';
-    font-size: 6vw;
+    font-size: 5.5vw;
     color: white;
+}
+#titleMain p{
+    font-size: 1.60vw;
+    font-family: 'Work Sans';
+    color: rgba(255, 255, 255, 0.568);
 }
 #titleMain span {
     color:#BFD0FD;
 }
-
 #imgMain {
     position: relative;
     left: 50px;
