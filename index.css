@@ -26,7 +26,6 @@ body {
 
 #header {
     width: 100%;
-    height: 100vh;
 }
 
 #navbar {
@@ -75,7 +74,7 @@ body {
 
 #sectionMain {
     width: 100%;
-    margin-top: 50px;
+    margin: 80px 0px 60px 0px;
     display: flex;
 }
 
@@ -93,6 +92,9 @@ body {
 .description h4 {
     color: #adfd96;
     font-family: 'MONT';
+}
+.description p {
+    font-size: 1rem;
 }
 
 .imageMain {
@@ -136,6 +138,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .box2 img {
     width: 120px;
     margin-top: 10px;
@@ -164,6 +167,7 @@ body {
     background-color: #3a3939;
     border-top: 1px solid rgb(97, 95, 95);
 }
+
 #line2 {
     width: 80%;
     height: 15px;
@@ -172,6 +176,7 @@ body {
     background-color: #3a3939;
     border-top: 1px solid rgb(97, 95, 95);
 }
+
 #line3 {
     width: 60%;
     height: 15px;
@@ -180,6 +185,7 @@ body {
     background-color: #3a3939;
     border-top: 1px solid rgb(97, 95, 95);
 }
+
 #line4 {
     width: 100%;
     height: 100px;
@@ -190,7 +196,41 @@ body {
     border-left: 1px solid rgb(175, 171, 171);
 }
 
-.section1 {
-    height: 1000px;
+.redSocial {
+    position: relative;
+    margin: auto;
+    width: 92%;
+    padding: 10px;
+    height: 120px;
+    top: 60px;
+    border-radius: 15px;
     background-color: #ffff;
+    -webkit-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    -moz-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    width: 80px;
+}
+
+.section1 {
+    background-color: #ffff;
+    padding: 180px 0px 20px 20px;
+}
+
+.section1 h1 {
+    text-align: center;
+    font-family: 'MONT';
+    color: #3a3939;
+    margin-bottom: 25px;
 }
