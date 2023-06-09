@@ -93,6 +93,7 @@ body {
     color: #adfd96;
     font-family: 'MONT';
 }
+
 .description p {
     font-size: 1rem;
 }
@@ -228,9 +229,33 @@ body {
     padding: 180px 0px 20px 20px;
 }
 
-.section1 h1 {
+.about-me {
+    margin: auto;
+    width: 92%;
+}
+
+.about-me h3 {
     text-align: center;
     font-family: 'MONT';
-    color: #3a3939;
-    margin-bottom: 25px;
+    font-size: 3.5vw;
 }
+
+.titulo img {
+    width: 50px;
+}
+
+.info-me {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    -moz-box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+    box-shadow: 0px 10px 32px -8px rgba(0, 0, 0, 0.288);
+}
+
+.info-me p {
+    font-size: 1.4vw;
+    color: #7c7c7c;
+}
+
+
